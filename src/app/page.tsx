@@ -9,7 +9,6 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    // border border-rose-700
     <main className="flex min-h-screen flex-col items-center justify-between ">
       <AuroraBackground className="text-white bg-gradient-to-b from-black to-black" showRadialGradient={true} >
           <Navbar />
@@ -88,9 +87,6 @@ export default function Home() {
         </div>
 
       </div>
-      {/* <div className="min-h-[58vh] w-[40%] border border-blue-700">
-       
-      </div> */}
     </main>
   );
 }
