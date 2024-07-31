@@ -10,7 +10,7 @@ export default function Navbar() {
             duration: 0.8,
             ease: "easeInOut",
         }}
-        className="mr-auto ml-auto w-[80%] fixed top-6"
+        className="mr-auto ml-auto w-[80%] z-50  fixed top-6"
     > 
         <nav className="pl-[32px] pt-[12px] pb-[12px] pr-[32px] border border-[rgba(255,255,255,.1)] bg-[rgba(17,17,17,.35)] backdrop-blur-[5px] flex rounded-full">
             <div id="nav-logo-block" className="flex items-center justify-start">
