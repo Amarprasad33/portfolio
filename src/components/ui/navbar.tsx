@@ -22,7 +22,7 @@ export default function Navbar() {
                 <div>Home</div>
                 <div>Stats</div>
                 <div>projects</div>
-                <div>faeaf</div>
+                <div>contact</div>
             </div>
         </nav>
     </motion.div>

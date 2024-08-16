@@ -35,7 +35,7 @@ export default function Home() {
         </motion.div>
       </AuroraBackground>
 
-      <div className="min-h-screen w-full border border-rose-700">
+      <div className="min-h-screen w-full">
         <h3 className="text-center text-4xl uppercase tracking-[0.5rem]">Projects</h3>
         <div id="projects-section" className="flex flex-col gap-[5rem] mt-12">
           <ProjectCard alignment='left' />
@@ -46,7 +46,7 @@ export default function Home() {
 
       <div className="border-b border-[#2b2b2b] w-[90%] mt-10"></div>
 
-      <div id="footer" className="py-12 flex border w-[90%] border-blue-600">
+      <div id="footer" className="py-12 flex border w-[90%]">
           {/* <div>
             © Copyright 2024
           </div> */}
