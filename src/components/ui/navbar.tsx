@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import Link  from "next/link"
 
 export default function Navbar() {
   return (
@@ -14,15 +15,22 @@ export default function Navbar() {
     > 
         <nav className="pl-[32px] pt-[12px] pb-[12px] pr-[32px] border border-[rgba(255,255,255,.1)] bg-[rgba(17,17,17,.35)] backdrop-blur-[5px] flex rounded-full">
             <div id="nav-logo-block" className="flex items-center justify-start">
-                <span className="text-white tracking-[4px] text-sm uppercase font-normal">
-                    Amar Prasad
-                </span>
+                <Link href={'#hero'}>   
+                    <span className="text-white tracking-[4px] text-sm uppercase font-normal">
+                        Amar Prasad
+                    </span>
+                </Link>
             </div>
             <div id="nav-btns" className="ml-auto flex gap-2">
-                <div>Home</div>
-                <div>Stats</div>
-                <div>projects</div>
-                <div>contact</div>
+                <Link href={'#hero'}>   
+                    <div>Home</div>
+                </Link>
+                <Link href={'#projects'}>   
+                    <div>projects</div>
+                </Link>
+                <Link href={'#contact-footer'}>   
+                    <div>contact</div>
+                </Link>
             </div>
         </nav>
     </motion.div>

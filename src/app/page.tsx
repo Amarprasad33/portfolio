@@ -29,24 +29,40 @@ export default function Home() {
           <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">
             I develop user interfaces and web applications.
           </div>
-          <button className="bg-black border border-inherit dark:bg-white rounded-full w-fit text-white dark:text-black hover:bg-inherit hover:text-white transition-all duration-150 hover:border hover:border-gray-600 px-4 py-2">
-            Contact
-          </button>
+          <Link href={'#contact-footer'}>   
+            <button className="bg-black border border-inherit dark:bg-white rounded-full w-fit text-white dark:text-black hover:bg-inherit hover:text-white transition-all duration-150 hover:border hover:border-gray-600 px-4 py-2">
+              Contact
+            </button>
+          </Link>
         </motion.div>
       </AuroraBackground>
 
-      <div className="min-h-screen w-full">
+      <div className="min-h-screen w-full" id="projects">
         <h3 className="text-center text-4xl uppercase tracking-[0.5rem]">Projects</h3>
         <div id="projects-section" className="flex flex-col gap-[5rem] mt-12">
-          <ProjectCard alignment='left' />
-          <ProjectCard alignment='right' />
+          <ProjectCard 
+            projectHeading="On Walk" 
+            projShortDesc="Find what you want nearby as you walk." 
+            projLongDesc="An innovative platform that allows you to easily find the location of your desired products in nearby stores, ensuring a seamless shopping experience." 
+            alignment='left'
+            liveUrl="/not-found"
+            githubUrl="https://github.com/Amarprasad33/on-walk"
+          />
+          <ProjectCard 
+            projectHeading="Hireop"
+            projShortDesc="A hiring platform for content creators"
+            projLongDesc="An intuitive hiring platform for content creators, enabling creators to post job opportunities while talented individuals apply directly, fostering seamless connections and collaborations."
+            liveUrl="/not-found"
+            githubUrl="https://github.com/Amarprasad33/hireop-app/"
+            alignment='right' 
+          />
         </div>
 
       </div>
 
       <div className="border-b border-[#2b2b2b] w-[90%] mt-10"></div>
 
-      <div id="footer" className="py-12 flex  w-[90%]">
+      <div id="contact-footer" className="py-12 flex  w-[90%]">
           {/* <div>
             © Copyright 2024
           </div> */}
