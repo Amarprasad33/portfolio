@@ -45,14 +45,14 @@ export default function Home() {
             projShortDesc="Find what you want nearby as you walk." 
             projLongDesc="An innovative platform that allows you to easily find the location of your desired products in nearby stores, ensuring a seamless shopping experience." 
             alignment='left'
-            liveUrl="/not-found"
+            liveUrl="/#"
             githubUrl="https://github.com/Amarprasad33/on-walk"
           />
           <ProjectCard 
             projectHeading="Hireop"
             projShortDesc="A hiring platform for content creators"
             projLongDesc="An intuitive hiring platform for content creators, enabling creators to post job opportunities while talented individuals apply directly, fostering seamless connections and collaborations."
-            liveUrl="/not-found"
+            liveUrl="https://hireop-app.vercel.app/"
             githubUrl="https://github.com/Amarprasad33/hireop-app/"
             alignment='right' 
           />
