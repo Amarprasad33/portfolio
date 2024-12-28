@@ -47,6 +47,7 @@ export default function Home() {
             alignment='left'
             liveUrl="/#"
             githubUrl="https://github.com/Amarprasad33/on-walk"
+            imageUrl="/assets/images/onwalk.png"
           />
           <ProjectCard 
             projectHeading="Hireop"
@@ -55,6 +56,7 @@ export default function Home() {
             liveUrl="https://hireop-app.vercel.app/"
             githubUrl="https://github.com/Amarprasad33/hireop-app/"
             alignment='right' 
+            imageUrl="/assets/images/hireop.png"
           />
         </div>
 
