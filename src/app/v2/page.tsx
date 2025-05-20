@@ -19,11 +19,11 @@ export default function PortfolioV2() {
         <SectionHeading heading='about' />
         
         <div className="flex flex-col gap-5 mb-10 text-sm text-[#E8E8E8] font-normal" aria-label="Self-description">
-          <p>A designer turned developer with over eight years of experience. I'm passionate about crafting beautiful yet functional systems and websites with a focus on accessibility, performance, and interactivity.</p>
+          <p>A designer turned developer with over eight years of experience. I&apos;m passionate about crafting beautiful yet functional systems and websites with a focus on accessibility, performance, and interactivity.</p>
 
-          <p>In the past I've worked solo, within agencies and in-house at global organisations. I'm now focused on contracting with small craft-focused teams and agencies.</p>
+          <p>In the past I&apos;ve worked solo, within agencies and in-house at global organisations. I&apos;m now focused on contracting with small craft-focused teams and agencies.</p>
 
-          <p>I'm currently working as a Senior Designer & Developer at MakeBuild, a London-based agency helping clients build world-class marketing websites with Webflow.</p>
+          <p>I&apos;m currently working as a Senior Designer & Developer at MakeBuild, a London-based agency helping clients build world-class marketing websites with Webflow.</p>
         </div>
 
         <div className="flex flex-col mb-10">
