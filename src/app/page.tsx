@@ -2,8 +2,8 @@
 
 import { motion } from "framer-motion";
 import { AuroraBackground } from "@/components/ui/aurora-background";
-import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
-import Image from "next/image";
+// import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
+// import Image from "next/image";
 import Navbar from "@/components/ui/navbar";
 import Link from "next/link";
 import ProjectCard from "@/components/ui/project-card";
