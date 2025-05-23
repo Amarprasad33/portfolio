@@ -30,7 +30,7 @@ export default function PortfolioV2() {
           <SectionHeading heading='projects' />
           
           <div 
-            className="py-2 px-[10px] min-h-80"
+            className="py-2 relative px-[10px] min-h-80"
             style={{
               borderWidth: '1px',
               borderStyle: 'solid',
@@ -43,7 +43,22 @@ export default function PortfolioV2() {
               `,
             }}
           >
-           <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg className="absolute -top-[6px] -left-[6px]" width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line y1="6.03851" x2="13.2226" y2="6.03851" stroke="#696969"/>
+            <line x1="6.5" y1="2.18557e-08" x2="6.5" y2="12" stroke="#696969"/>
+          </svg>
+
+          <svg className="absolute -top-[5.6px] -right-[7px]" width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line y1="6.03851" x2="13.2226" y2="6.03851" stroke="#696969"/>
+            <line x1="6.5" y1="2.18557e-08" x2="6.5" y2="12" stroke="#696969"/>
+          </svg>
+
+          <svg className="absolute -bottom-[5px] -left-[6px]" width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line y1="6.03851" x2="13.2226" y2="6.03851" stroke="#696969"/>
+            <line x1="6.5" y1="2.18557e-08" x2="6.5" y2="12" stroke="#696969"/>
+          </svg>
+
+          <svg className="absolute -bottom-[5px] -right-[7px]" width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line y1="6.03851" x2="13.2226" y2="6.03851" stroke="#696969"/>
             <line x1="6.5" y1="2.18557e-08" x2="6.5" y2="12" stroke="#696969"/>
           </svg>
