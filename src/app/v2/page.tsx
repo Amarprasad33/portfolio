@@ -5,8 +5,8 @@ export default function PortfolioV2() {
         
         <div className="flex justify-between">
           <div className="flex flex-col">
-            <span>Amar Prasad</span>
-            <span>Developer + Designer</span>
+            <span className="text-zinc-100 text-base">Amar Prasad</span>
+            <span className="font-light text-sm text-[#A3A3A3]">Design Engineer</span>
           </div>
           <div className="flex flex-col">
             <div>Home</div>
