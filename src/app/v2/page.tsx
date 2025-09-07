@@ -22,7 +22,7 @@ export default function PortfolioV2() {
           <p className="text-zinc-400">You know that weird, chaotic space between a stunning design mockup and a fully-functioning product? Yeah, I live there. I&apos;m a 
             <span className="text-zinc-100 font-medium"> Full Stack Developer</span> who loves to get his hands dirty with <span className="text-zinc-100 font-medium">UI/UX</span> design.</p>
 
-          <p>My passion is the sweet spot between Design & Development. It&apos;s where I get to build experiences that feel as good as they look, and I&apos;m always hungry for the next challenge that pushes me further.</p>
+          <p className="text-zinc-400">My passion is the sweet spot between <span className="text-zinc-100 font-medium">Design & Development</span>. It&apos;s where I get to build experiences that feel as good as they look, and I&apos;m always hungry for the next challenge that pushes me further.</p>
         </div>
 
         <div className="flex flex-col mb-10">
@@ -32,9 +32,7 @@ export default function PortfolioV2() {
             <ProjectCard />
             <ProjectCard />
           </div>
-
-         
-
+          
         </div>
 
       </div>
