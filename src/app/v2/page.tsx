@@ -1,3 +1,7 @@
+import NavMenu from "@/components/custom/nav-menu";
+import ProjectCard from "@/components/custom/project-card";
+
+
 export default function PortfolioV2() {
   return (
     <main className="flex flex-col items-center h-screen">
@@ -8,63 +12,28 @@ export default function PortfolioV2() {
             <span className="text-zinc-100 text-base">Amar Prasad</span>
             <span className="font-light text-sm text-[#A3A3A3]">Design Engineer</span>
           </div>
-          <div className="flex flex-col">
-            <div>Home</div>
-            <div>Craft</div>
-            <div>Projects</div>
-            <div>Contact</div>
-          </div>
+         
+            <NavMenu />
         </div>
 
         <SectionHeading heading='about' />
         
         <div className="flex flex-col gap-5 mb-10 text-sm text-[#E8E8E8] font-normal" aria-label="Self-description">
-          <p>A developer experimenting with design with over 1.5 years of experience. I&apos;m passionate about crafting beautiful yet functional systems and websites with a focus on accessibility, performance, and interactivity.</p>
+          <p className="text-zinc-400">You know that weird, chaotic space between a stunning design mockup and a fully-functioning product? Yeah, I live there. I&apos;m a 
+            <span className="text-zinc-100 font-medium"> Full Stack Developer</span> who loves to get his hands dirty with <span className="text-zinc-100 font-medium">UI/UX</span> design.</p>
 
-          <p>In the past I&apos;ve worked solo, within agencies and in-house at global organisations. I&apos;m now focused on contracting with small craft-focused teams and agencies.</p>
-
-          <p>I&apos;m currently working as a Senior Designer & Developer at MakeBuild, a London-based agency helping clients build world-class marketing websites with Webflow.</p>
+          <p>My passion is the sweet spot between Design & Development. It&apos;s where I get to build experiences that feel as good as they look, and I&apos;m always hungry for the next challenge that pushes me further.</p>
         </div>
 
         <div className="flex flex-col mb-10">
           <SectionHeading heading='projects' />
           
-          <div 
-            className="py-2 relative px-[10px] min-h-80"
-            style={{
-              borderWidth: '1px',
-              borderStyle: 'solid',
-              borderColor: 'transparent',
-              background: `
-                linear-gradient(90deg, #52525280 50%, transparent 50%) top left/15px 1px repeat-x,
-                linear-gradient(90deg, #52525280 50%, transparent 50%) bottom left/15px 1px repeat-x,
-                linear-gradient(0deg, #52525280 50%, transparent 50%) left 1px/1px 15px repeat-y,
-                linear-gradient(0deg, #52525280 50%, transparent 50%) right 1px/1px 15px repeat-y
-              `,
-            }}
-          >
-          <svg className="absolute -top-[6px] -left-[6px]" width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <line y1="6.03851" x2="13.2226" y2="6.03851" stroke="#696969"/>
-            <line x1="6.5" y1="2.18557e-08" x2="6.5" y2="12" stroke="#696969"/>
-          </svg>
-
-          <svg className="absolute -top-[5.6px] -right-[7px]" width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <line y1="6.03851" x2="13.2226" y2="6.03851" stroke="#696969"/>
-            <line x1="6.5" y1="2.18557e-08" x2="6.5" y2="12" stroke="#696969"/>
-          </svg>
-
-          <svg className="absolute -bottom-[5px] -left-[6px]" width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <line y1="6.03851" x2="13.2226" y2="6.03851" stroke="#696969"/>
-            <line x1="6.5" y1="2.18557e-08" x2="6.5" y2="12" stroke="#696969"/>
-          </svg>
-
-          <svg className="absolute -bottom-[5px] -right-[7px]" width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <line y1="6.03851" x2="13.2226" y2="6.03851" stroke="#696969"/>
-            <line x1="6.5" y1="2.18557e-08" x2="6.5" y2="12" stroke="#696969"/>
-          </svg>
-
-
+          <div className="grid grid-cols-2 gap-4">
+            <ProjectCard />
+            <ProjectCard />
           </div>
+
+         
 
         </div>
 
